@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+.top-bar{
+    background: #ccc;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+}
+
+.nav-links a{
+    margin-left: 15px;
+    color: #444;
+    text-decoration: none;
+}
+
+
+.intro-section{
+    background: #ccc;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: gray
+}
+
+.intro-text h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.intro-text p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.slider-box{
+    width: 55%;
+    height: 180px;
+    background: #aaa;
+    padding: 20px;
+}
+
+
+.dots{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.dots span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+
+.services-section, .recent-section{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px 0;
+}
+
+.box{
+    width: 200px;
+    height: 160px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    text-align: center;
+    font-size: 16px;
+}
+    
+
+.twitter-section{
+    padding: 20px;
+}
+
+.twitter-box{
+    background: #ccc;
+    padding: 20px;
+    text-align: left;
+    color: #444;
+}
+
+
+.footer{
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.copy{
+    color: #444;
+}
+
+/* Existing CSS yaha pe hai... */
+
+/* ---------------- Responsive Media Queries ---------------- */
+
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+    .intro-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slider-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .services-section, .recent-section {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .box {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .intro-section {
+        padding: 20px;
+    }
+
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .intro-text p {
+        font-size: 12px;
+    }
+
+    .slider-box {
+        height: 150px;
+        padding: 10px;
+    }
+
+    .services-section, .recent-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        height: 140px;
+    }
+
+    .dots span {
+        width: 6px;
+        height: 6px;
+        margin: 0 3px;
+    }
+
+    .top-bar {
+        padding: 15px 20px;
+    }
+
+    .footer {
+        padding: 15px 20px;
+    }
+
+    .twitter-box {
+        padding: 15px;
+    }
+}
+
+
+
+

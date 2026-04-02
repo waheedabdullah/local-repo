@@ -1,0 +1,40 @@
+.lala {
+    font-size: 50px;
+    background-color: brown;
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 50px;
+    font-style: italic;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.khan{
+    font-size: 50px;
+    font-style: oblique;
+
+}
+
+.grade {
+    font-size: 50px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.nav {
+    font-size: 50px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#noo {
+        
+}
+
+
+

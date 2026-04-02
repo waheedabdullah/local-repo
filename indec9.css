@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+/* ---------------- TOP BAR ---------------- */
+.top-bar{
+    background: #ccc;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-links a{
+    color: #444;
+    text-decoration: none;
+}
+
+/* ---------------- INTRO SECTION ---------------- */
+.intro-section{
+    background: #ccc;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: gray;
+}
+
+.intro-text{
+    flex: 1 1 250px;
+    min-width: 230px;
+}
+
+.slider-box{
+    flex: 1 1 300px;
+    min-width: 250px;
+    height: 200px;
+    background: #aaa;
+    padding: 20px;
+}
+
+/* ---------------- DOTS ---------------- */
+.dots{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.dots span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+/* ---------------- SERVICES + RECENT ---------------- */
+.services-section, .recent-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    width: 30%;
+    min-width: 260px;
+    height: 160px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+/* ---------------- TWITTER ---------------- */
+.twitter-section{
+    padding: 20px;
+}
+
+.twitter-box{
+    background: #ccc;
+    padding: 20px;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer{
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #444;
+}
+@media (max-width: 992px) {
+    .box{
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .box{
+        width: 90%;
+    }
+}
